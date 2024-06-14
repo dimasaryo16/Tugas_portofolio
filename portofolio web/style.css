@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #DD5746; 
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    text-align: center;
+    display: flex;
+  }
+
+  nav {
+    right: 0;
+    top: 8px;
+    position: absolute;
+    display: flex;
+    color: #fff;
+    padding: 15px;
+}
+
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px; 
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; 
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #DD5746;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+  }
+  
+  section {
+    padding: 50px 20px;
+    display: flex;
+  }
+
+  .tentang_saya {
+    padding-left: 50px;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: left; 
+  }
+  
+  .profile-img {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  #projects h2 {
+    text-align: center;
+  }
+  
+  section article {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  section article img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .contact-section {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px; /* Tambahkan margin atas pada bagian kontak */
+  }
+  
+  footer {
+    background-color: #DD5746; /* Ubah warna footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
